@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+
+}
+body{
+        background-image: url(imgs/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+    }
+.perfilRedondo{
+    border-radius: 60%;
+    width: 100px;
+    border-color: rgb(86, 92, 92);
+}
+.btn{
+    
+    border: 4px rgb(10, 6, 6);  /* df dsd */
+    padding:  10px;
+    background-color: rgba(125, 129, 128, 0.712);
+    color: rgb(19, 15, 15);
+    cursor: pointer;
+    border-radius: 6px;
+    height: 40px;
+    width: 590px;
+}
