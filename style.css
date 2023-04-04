@@ -1,5 +1,6 @@
 *{
     text-align: center;
+    font-family: Georgia, serif;
 
 }
 body{
@@ -33,10 +34,11 @@ body{
     justify-content: center;
 }
 .carrossel{
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.24);
     overflow: hidden;
     height: 250px;
-    width: 500px;
+    width: 450px;
+    border-radius: 10px;
     
 }
 .container{
@@ -46,9 +48,6 @@ body{
 }
 img{
     object-fit: cover;
-    height: 500px;
+    height: 290px;
     width: 500px;
-}
-.competence{
-    
 }

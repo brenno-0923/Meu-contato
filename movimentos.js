@@ -13,3 +13,12 @@ function carrossel(){
 }
 
 setInterval(carrossel , 1800 );
+
+function changeImage(){
+    let displayImage = document.getElementById('image1')
+    if(displayImage.src.match('imgs/mt.jpeg')){
+        displayImage.src = 'imgs/or.jpeg'
+    }else{
+        displayImage.src= 'imgs/mt.jpeg'
+    }
+}
